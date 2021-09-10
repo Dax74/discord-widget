@@ -1,5 +1,10 @@
-widget_id:
+server_id:
   type: string
   default: "nil"
   description: 
     en: 'The server ID, e.g. 123456789012345678'
+theme:
+  type: string
+  default: "nil"
+  description: 
+    en: 'set your widget to 'light' or 'dark''    
