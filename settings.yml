@@ -2,6 +2,4 @@ discord_url:
   type: string
   default: "nil"
   description: 
-    en: 'The source url for your background image. Tip: You can upload an image to your main theme and use the url from that, 
-         but make sure that you do not use "Uploads" section of this component. Any uploads added to this component will be 
-         deleted whenever it is updated.'<iframe src="https://discord.com/widget?id=149218771423330304&theme=dark"
+    en: 'The server ID, e.g. 123456789012345678'
