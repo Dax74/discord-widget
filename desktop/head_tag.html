@@ -31,8 +31,9 @@ html() {
     
 api.decorateWidget('header-icons:before', function(helper) {
   const headerState = helper.widget.parentWidget.state;
+  var title_name = settings.title_name;
   return helper.attach('header-dropdown', {
-      title: 'Discord Chat',
+      title: '${title_name}',
       icon: 'fab-discord',
       active: headerState.discordChatVisible,
       action: 'toggleDiscordChat',
