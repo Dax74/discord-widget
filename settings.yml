@@ -1,6 +1,6 @@
 server_id:
   type: string
-  default: "nil"
+  default: " "
   description: 
     en: 'The server ID, e.g. 123456789012345678'
 theme_color:
