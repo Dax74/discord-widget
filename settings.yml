@@ -5,6 +5,6 @@ server_id:
     en: 'The server ID, e.g. 123456789012345678'
 theme_color:
   type: string
-  default: "nil"
+  default: " "
   description: 
     en: 'Set your widget to 'light' or 'dark''    
