@@ -11,5 +11,3 @@ theme_color:
 title:
   type: string
   default: "Discord chat"
-  description: 
-    en: "Set your widget to 'light' or 'dark'" 
