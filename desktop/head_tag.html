@@ -1,6 +1,7 @@
 <script type="text/discourse-plugin" version="0.8">
 const { h } = require('virtual-dom');
 const { iconNode } = require("discourse-common/lib/icon-library");
+var widget_id = settings.widget_id;
 
 api.createWidget('discord-chat-menu', {
   tagName: 'div.discord-panel',
