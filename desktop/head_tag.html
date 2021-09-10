@@ -10,7 +10,7 @@ api.createWidget('discord-chat-menu', {
   html() {
     return this.attach('menu-panel', {
       contents: () => h('iframe', {
-                        "src": 'https://discord.com/widget?id='+server_id+'&theme='+theme+',
+                        "src": 'https://discord.com/widget?id='+server_id+'&theme='+theme+,
                         "sandbox": "allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts",
                         "width": "350",
                         "height": "500",
