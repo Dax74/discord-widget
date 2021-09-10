@@ -1,4 +1,4 @@
-discord_url:
+widget_id:
   type: string
   default: "nil"
   description: 
