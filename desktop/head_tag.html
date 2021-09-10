@@ -2,7 +2,7 @@
 const { h } = require('virtual-dom');
 const { iconNode } = require("discourse-common/lib/icon-library");
 var server_id = settings.server_id;
-var theme = settings.theme;
+var theme_color = settings.theme_color;
 
 api.createWidget('discord-chat-menu', {
   tagName: 'div.discord-panel',
@@ -10,7 +10,7 @@ api.createWidget('discord-chat-menu', {
   html() {
     return this.attach('menu-panel', {
       contents: () => h('iframe', {
-                        "src": 'https://discord.com/widget?id=' +server_id+ '&theme=' +theme+,
+                        "src": 'https://discord.com/widget?id=' +server_id+ '&theme=' +theme_color+,
                         "sandbox": "allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts",
                         "width": "350",
                         "height": "500",
