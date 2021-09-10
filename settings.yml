@@ -7,4 +7,9 @@ theme_color:
   type: string
   default: " "
   description: 
-    en: "Set your widget to 'light' or 'dark'"    
+    en: "Set your widget to 'light' or 'dark'"
+title-name:
+  type: string
+  default: "Discord chat"
+  description: 
+    en: "Set your widget to 'light' or 'dark'" 
