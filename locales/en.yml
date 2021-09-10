@@ -1,6 +1,0 @@
----
-en:
-  server_id: "The server ID, e.g. 123456789012345678. You can find it on the Discord server settings, under 'widget'."
-  theme_color: "Set your widget to 'light' or 'dark'"
-  title: "Discord chat"
-    label: Discord chat
