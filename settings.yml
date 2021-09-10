@@ -2,7 +2,7 @@ server_id:
   type: string
   default: " "
   description: 
-    en: 'The server ID, e.g. 123456789012345678'
+    en: "The server ID, e.g. 123456789012345678. You can find it on the Discord server settings, under 'widget'."
 theme_color:
   type: string
   default: " "
