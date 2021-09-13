@@ -2,7 +2,7 @@
     function reloadIFrame() {
         var disc = document.getElementById("chatwidget");
         if (disc) {
-            disc.src="https://discordapp.com/widget?id=your-widget-ID&theme=light";
+            disc.src=`https://discord.com/widget?id=${server_id}&theme=${widget_color}`;
         }
     }
     window.setInterval("reloadIFrame();", 90000);
