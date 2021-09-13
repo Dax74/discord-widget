@@ -1,10 +1,10 @@
 server_id:
   type: string
-  default: " "
+  default: ""
   description: 
     en: "The server ID, e.g. 123456789012345678. You can find it on the Discord server settings, under 'widget'."
 widget_color:
   type: string
-  default: " "
+  default: ""
   description: 
     en: "Set your widget to 'light' or 'dark'"
